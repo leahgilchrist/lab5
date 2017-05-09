@@ -83,3 +83,9 @@ span {
 	font-weight:200;
 	font-style:italic;
 }
+
+/*This is where my contact page css begins */
+
+label {
+	display:block;	
+}
