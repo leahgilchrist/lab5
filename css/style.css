@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-* { font-family: Helvetica, Arial, sans-serif;
+body { font-family: Helvetica, Arial, sans-serif;
 
 }
 
@@ -86,10 +86,26 @@ span {
 
 /*This is where my contact page css begins */
 
-.image2 {
-	height:auto;
-	width: 10px;
+fieldset {
 	
+	font-family: 'Raleway', sans-serif;
+
+}
+
+p {
+	font-weight:600;
+}
+
+legend { 
+	font-size:25px;
+	font-weight:600;
 	
 }
+
+form img {
+	margin-right: 10px;	
+}
+
+form { 
 	
+}

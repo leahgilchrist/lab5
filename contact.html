@@ -2,8 +2,11 @@
 <html>
 <head>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">
 <meta charset="UTF-8">
 <title>Untitled Document</title>
+
 </head>
 
 <body>
@@ -22,10 +25,11 @@
 
 </nav>
 
-<p> Please fill out the following information:</p>
+<p> </p>
 
 <form>
 	<fieldset> 
+    <Legend>Please fill out the following information:</Legend>
 		<p><label> Name: <input type="text" name="Name"> </label></p>
         <p><label> Address: <input type="text" name="address"> </label></p>
         <p><label> City: <input type="text" name="city"> </label></p>
@@ -91,9 +95,10 @@
        
        <p> Gender: <input type="radio" name="gender" checked="checked" value="male" /> Male
        				<input type="radio" name="gender" value="female"/> Female
+                    <input type="radio" name="gender" value="Other"/> Other
        </p>
        
-       <p> Select your top five favorite Hyrdoflask colors: 
+     <p> Select your top five favorite Hyrdoflask colors: </p>
        		<input type="checkbox" name="colors" value="Lava" /> Lava
        		<input type="checkbox" name="colors" value="Kiwi" /> Kiwi 	
         	<input type="checkbox" name="colors" value="Graphite" /> Graphite
@@ -104,8 +109,12 @@
             <input type="checkbox" name="colors" value="Forest" /> Forest
             <input type="checkbox" name="colors" value="Black" /> Black
             <input type="checkbox" name="colors" value="White" /> White  
-       </p>
        
+       
+       
+       <!--<select name="colors" size="10">
+       <option value="Lava"> Lava </option>
+       <option value="Kiwi"> Kiwi </option>-->
       <h3> Credit Card Information </h3>
       			<img src="../Lab 06/american_express.png" alt="american express" width="30px"> 
        			<img src="../Lab 06/mastercard1979.png" alt= "mastercard" width="30px">	
@@ -116,7 +125,11 @@
         <input type="text" name="credit card"> </label> 
        <label> Exp Date: <input type="text" name="credit card"> </label>
        <label> CVV <input type="text" name="credit card"> </label></p>
+       
+        <input type="image" src="images/Untitled-1.png" alt="submit" width="100px">
 	</fieldset>
+    
+   
 </form>
 	
 </body>
